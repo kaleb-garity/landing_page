@@ -14,3 +14,16 @@
     font-weight: extra-bold;
     color: #F9FAF8;
 }
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+}
+
+.header .one {
+    size: 24px;
+}
