@@ -2,8 +2,12 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.header,
-.contentOne,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.top,
 .footer {
     background-color: #1F2937;
     color: white;
@@ -24,6 +28,23 @@ body {
     display: flex;
 }
 
-.header .one {
-    size: 24px;
+#logo {
+    font-size: 24px;
+    color: #F9FAF8
+}
+
+.headerLink {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.header, .contentOne {
+    margin-right: 100x;
+    margin-left: 100px;
+}
+
+.headerLinks {
+    display: flex;
+    margin-left: auto;
+    margin-right: 0;
 }
